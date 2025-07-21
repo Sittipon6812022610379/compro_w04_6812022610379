@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+    float score = 90.5;
+    printf("Score: %.1f\n" , score);
+    return 0;
+}
+// Code ทำงานได้ปกติเพราะ 90.5 เป็น Double และใส่ F ข้างหลัง 90.5 เพื่อระบุว่าเป็น float
